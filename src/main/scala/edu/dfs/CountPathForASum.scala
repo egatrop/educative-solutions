@@ -37,13 +37,14 @@ object CountAllPathSum {
     paths.length
   }
 
-  def main(args: Array[String]): Unit = {
-    val root = new TreeNode(12)
-    root.left = new TreeNode(7)
-    root.right = new TreeNode(1)
-    root.left.left = new TreeNode(4)
-    root.right.left = new TreeNode(10)
-    root.right.right = new TreeNode(5)
-    System.out.println("Tree has path: " + CountAllPathSum.countPaths(root, 11))
-  }
+//  def main(args: Array[String]): Unit = {
+//    val root = new TreeNode(12)
+//    root.left = new TreeNode(7)
+//    root.right = new TreeNode(1)
+//    root.left.left = new TreeNode(4)
+//    root.right.left = new TreeNode(10)
+//    root.right.right = new TreeNode(5)
+//    System.out.println("Tree has path: " + CountAllPathSum.countPaths(root, 11))
+//  }
 }
+

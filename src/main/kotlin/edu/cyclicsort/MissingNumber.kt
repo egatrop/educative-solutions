@@ -17,6 +17,7 @@ Output: 7
 */
 fun main() {
     assertEquals(2, missingNumber(arrayOf(4, 0, 3, 1)))
+    assertEquals(2, missingNumber(arrayOf(0, 1)))
     assertEquals(7, missingNumber(arrayOf(8, 3, 5, 2, 4, 6, 0, 1)))
 }
 
@@ -44,5 +45,5 @@ fun missingNumber(arr: Array<Int>): Int {
         if (arr[i] != i) return i
     }
 
-    return -1
+    return arr.size
 }
